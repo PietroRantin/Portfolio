@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Mim</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Menu de navegação fixo -->
+  <nav class="menu">
+    <div class="logo">Pietro R.</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div> <!-- ícone do hamburguer -->
+    <ul id="menu-list" class="hidden">
+      <li><a href="index.html">Sobre Mim</a></li>
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="index.html#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <!-- Seção SOBRE MIM -->
+    <section id="sobre">
+      <h1>Sobre Mim</h1>
+      <p>Olá! Meu nome é Pietro Rantin Venâncio. Sou estudante de Ciência da Computação e formado em Técnico em Tecnologia da Informação pela FIEB. Tenho paixão por inovação, tecnologia e ambientes colaborativos.</p>
+      <p>Possuo experiência prática com desenvolvimento web (HTML, CSS, JavaScript), backend com Java e SQL, e suporte técnico. Desenvolvi um projeto completo chamado <strong>Repositório de Comércios Regionais</strong>, com versão web e mobile.</p>
+      <p>Sou proativo, autodidata e tenho familiaridade com temas como Ciência de Dados, Inteligência Artificial e Cibersegurança. Estou sempre em busca de aprendizado e novos desafios.</p>
+    </section>
+    
+
+    <!-- Seção CONTATO -->
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <p>Fique à vontade para me chamar por e-mail, LinkedIn ou enviar uma mensagem pelo formulário abaixo.</p>
+    
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:rantin.pietro@gmail.com">rantin.pietro@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pietro-rantin" target="_blank">linkedin.com/in/pietro-rantin</a></li>
+      </ul>
+    
+      <!-- Formulário -->
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+    
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+    
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="mensagem-sucesso" style="display: none; color: green;">Mensagem enviada com sucesso!</p>
+    </section>
+    
+
+  <footer>
+    <p>&copy; 2025 Pietro. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

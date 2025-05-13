@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Menu de navegação -->
+  <nav class="menu">
+    <div class="logo">Pietro</div>
+    <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    <ul id="menu-list" class="hidden">
+      <li><a href="index.html">Sobre Mim</a></li>
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="index.html#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="intro-portfolio">
+      <h1>Meus Projetos</h1>
+      <p>Aqui estão alguns dos projetos práticos que desenvolvi durante minha formação acadêmica</p>
+    </section>
+
+    <section class="projetos">
+
+      <!-- Projeto 1 -->
+      <article class="projeto">
+        <h2>Repositório de Comércios Regionais</h2>
+        <p>Plataforma web e mobile para pequenos comércios exibirem seus produtos. Desenvolvida em equipe com foco em frontend, backend e documentação.</p>
+        <p><strong>Tecnologias:</strong> Java, SQL, HTML, CSS, JavaScript</p>
+      
+        <!-- Carrossel de Imagens -->
+        <div class="carousel">
+          <button class="prev" onclick="mudarSlide(-1)">&#10094;</button>
+          
+          <div class="carousel-images">
+            <img src="images/Captura de tela 2024-10-02 095535.png" class="slide active" alt="Print do projeto 1">
+            <img src="images/Captura de tela 2024-10-02 095628.png" class="slide" alt="Print do projeto 2">
+            <img src="images/Captura de tela 2024-10-02 095649.png" class="slide" alt="Print do projeto 3">
+            <img src="images/Captura de tela 2024-10-02 095851.png" class="slide" alt="Print do projeto 4">
+            <img src="images/Captura de tela 2024-10-02 095913.png" class="slide" alt="Print do projeto 5">
+            <img src="images/Captura de tela 2024-10-02 095933.png" class="slide" alt="Print do projeto 6">
+            <img src="images/Captura de tela 2024-10-02 100004.png" class="slide" alt="Print do projeto 7">
+            <img src="images/Captura de tela 2024-10-02 100024.png" class="slide" alt="Print do projeto 8">
+            <img src="images/Captura de tela 2024-10-02 100042.png" class="slide" alt="Print do projeto 9">
+            <img src="images/Captura de tela 2024-10-02 100100.png" class="slide" alt="Print do projeto 10">
+            <img src="images/Captura de tela 2024-10-02 100120.png" class="slide" alt="Print do projeto 11">
+            <img src="images/Captura de tela 2024-10-02 100136.png" class="slide" alt="Print do projeto 12">
+          </div>
+      
+          <button class="next" onclick="mudarSlide(1)">&#10095;</button>
+        </div>
+
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pietro. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
